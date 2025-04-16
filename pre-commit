@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Execute the index generation script
+./generate_index.sh
+
+# Add the created or modified 000-index.md files
+git add */000-index.md
+
+# Check if there are any changes to commit
+if git diff --cached --quiet; then
+  echo "No index files to commit."
+  exit 0
+else
+  echo "Index files updated and added to the commit."
+  exit 0
+fi
