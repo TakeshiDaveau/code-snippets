@@ -51,3 +51,4 @@ git config --global alias.c 'commit'
 git config --global alias.a 'add'
 git config --global alias.cm 'commit -m'
 git config --global alias.last 'log -1 HEAD --stat' # last commit
+git config --global alias.gpf 'push --force-with-lease' 
