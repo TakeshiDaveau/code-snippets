@@ -1,4 +1,4 @@
-## Choose Boring Technology - Mini Summary
+# Choose Boring Technology - Mini Summary
 
 Dan McKinley's article emphasizes the importance of choosing "boring" technologies in software development. This minimizes risks and operational costs. Companies have limited "innovation tokens" to spend on new technologies, and it's crucial to use them wisely.
 
